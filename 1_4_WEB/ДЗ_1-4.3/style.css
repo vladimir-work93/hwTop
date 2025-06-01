@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    --background-color: red;
+    margin: 2rem 0 1rem 1rem;
+    font-size: 1.25rem;
+}
+
+h2 {
+    --background-color: yellow;
+    margin: 1rem;
+    margin-right: 0;
+    font-weight: normal;
+    font-size: 1rem;
+}
+
+dl {
+    --background-color: green;
+    margin: 1rem;
+    margin-right: 0;
+}
+
+dt {
+    margin: 1rem 0;
+    font-style: italic;
+}
+
+dd {
+    list-style-type:circle;
+}
+
+ol {
+    margin-left: 4rem;
+}
+
+.example {
+    color: gray;
+}
+
+a {
+    text-decoration: none;
+}

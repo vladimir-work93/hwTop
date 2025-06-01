@@ -1,0 +1,55 @@
+* {
+    --margin: 0;
+    --padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    margin: 4em 2em 2em 2em;
+    --background-color: rgb(240, 240, 240);
+}
+
+h1 {
+    --background-color: yellow;
+    text-align: center;
+    margin: 1em 0;
+}
+
+h2 {
+    --background-color: green;
+    text-align: center;
+    margin: 1em 0;
+}
+
+p {
+    --background-color: coral;
+    margin-bottom: 1em;
+}
+
+ol {
+    list-style-type: none;
+    --background-color: rgb(200, 200, 200);
+    margin: 0;
+}
+
+code {
+    --background-color: rgb(200, 200, 200);
+    color: rgb(175, 0, 0);
+}
+
+div {
+    background-color: rgb(200, 200, 200);
+    padding: 1em 0;
+}
+
+a {
+    text-decoration-style: dotted;
+    color: black;
+}
+
+span {
+    background-color: rgb(200, 200, 200);
+    color: rgb(10, 111, 243);
+}
+

@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#forum {
+    margin: 1rem 1rem;
+}
+
+.container-form {
+    margin: 0 1rem;
+}
+
+.message-in-forum {
+    margin-top: 1rem;
+    border: 1px solid #dee2e6;
+    border-radius: 5px;
+}
+
+.string-top {
+    display: flex;
+    border-bottom: 1px solid #dee2e6;
+    padding: 0.5rem 1rem;
+    justify-content: space-between;
+}
+
+.text-message {
+    padding: 0.5rem 1rem;;
+}
+
+h4 {
+    text-align: center;
+    margin: 1rem 0;
+}
+
+.margin-top-1rem {
+    margin-top: 1rem;
+    width:auto;
+    /* margin-right: 1rem; */
+}
+
+.width-160px {
+    width: 160px;
+    white-space: wrap;
+    text-align: start;
+    margin-right: 1rem;
+    background-color: white;
+    border: none;
+    border-radius: 0;
+}

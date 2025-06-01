@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.football {
+    margin: 1rem;
+    position: relative;
+    width: fit-content;
+}
+
+#ball {
+    width: 100px;
+    position: absolute;
+    top: 50%; 
+    left: 50%; 
+    transition: 1s;
+    background-color: transparent;
+    transform: translate(-50%, -50%);
+}

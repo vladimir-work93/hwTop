@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+    margin: 1rem 0 2rem 2rem;
+    font-size: 3rem;
+}
+
+ul {
+    margin: 0 0 1rem 2rem;
+    
+}
+
+li {
+    background-color: rgb(3, 112, 255);
+    margin-bottom: 1rem;
+    padding: 1rem 2rem;
+    list-style-type: none;
+    font-size: 2rem;
+}
+
+li:nth-child(even) {
+    background-color: rgb(153, 191, 241);
+}
+
+.complete {
+    background-color: rgb(204, 201, 201);
+    --text-decoration:line-through;
+}
+
+span {
+    margin: 0 2rem;
+}
+
+img {
+    width: 32px;
+}

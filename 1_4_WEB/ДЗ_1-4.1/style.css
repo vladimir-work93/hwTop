@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ol {
+    background-color: orange;
+    padding: 2em;
+    list-style-type: none;
+}
+
+li {
+    background-color: rgb(241, 203, 132);
+    margin-bottom: 0.5em;
+    font-size: 2rem;   
+}
+
+li:last-child {
+    margin-bottom: 0;
+}
+
+span {
+    display: inline-block;
+    background-color: rgb(226, 128, 0);
+    padding: 0.5em 1em;
+    width: fit-content;
+}
+
+.num {
+    background-color: rgb(241, 203, 132);
+    padding: 0.5em 0.5em;
+}
